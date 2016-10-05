@@ -1,6 +1,18 @@
 /*********************************
  * Author: Xue (Charlotte) Lin
  * Date: 2015/04/01
+ 
+ Through calculating the 'info gain', ppls can sort the data and frin out the attributes with the largest info_gain
+ please relate to the TDS privacy algorithm: the "best attribute" ought to be found out by calculating the score (info gain)
+ 
+ Attributes with the largest score will be specialized ... This will be contibued until no else values can be specialised while preserve privacy.
+ 
+ 
+ C-4.5 is basically to construct the tree 
+
+Entropy = 0 ---> leaf
+Otherwise, construct as tree node
+
  *********************************/
 package C45CoreAlgorithm;
 
